@@ -1,0 +1,41 @@
+{
+  "name": "grunt-vunits",
+  "description": "Post-css processor to provide de device-specific backup properties for CSS3 V-Unites",
+  "version": "0.1.0",
+  "homepage": "ghttps://github.com/seavor/grunt-vunits",
+  "author": {
+    "name": "Jeremy Letto",
+    "email": "jletto87@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seavor/grunt-vunits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seavor/grunt-vunits/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "ghttps://github.com/seavor/grunt-vunits/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
